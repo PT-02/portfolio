@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Landing_page from './pages/landingPage';
 
 function App() {
   return (
     <>
-    Creating portfolio
+    <Landing_page />
     </>
   );
 }
