@@ -1,0 +1,9 @@
+.project{
+    height:100vh;
+    background:#011D32;
+}
+.project h1{
+    color: white;
+    font-size: 7vw;
+    text-align: center;   
+}

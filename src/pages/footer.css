@@ -1,0 +1,9 @@
+.footer{
+    height:50vh;
+    background:#011D32;
+}
+.footer h1{
+    color: white;
+    font-size: 7vw;
+    text-align: center;   
+}
