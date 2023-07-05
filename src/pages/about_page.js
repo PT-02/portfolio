@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-// import dot from './images/dot.jpg'
+
 
 function AboutPage(){
     return(
@@ -10,7 +10,7 @@ function AboutPage(){
           <div className='left'>
             <h2>An Engineering Student</h2>
             <p>Passionate engineering student seeking innovative solutions. Proficient in <span>problem-solving, critical thinking, and technical skills</span> . Dedicated to continuous learning and staying updated with emerging technologies. Excited to contribute to challenging projects and make a positive impact in the world.</p>
-            {/* <img src={dot} alt='dots'/> */}
+           
              
           </div>
           <div className='right'>

@@ -8,35 +8,32 @@
 .container {
     display: grid;
     height: 100vh;
-    margin-left: 4vw;
+    margin-left: 8vw;
     column-gap: 50px;
     grid-template-columns: auto auto auto;
 
 
 }
 
-.left {
+.container .left {
     margin-top: 3vw;
 }
 
-.right {
-    margin-top: 20vw;
+.container .right {
+    margin-top: 10vw;
+    margin-left: 8vw;
+
 }
 
-h2 {
+.container h2 {
     font-size: 3.5vw;
     color: #011D32;
 }
 
-p {
+.container p {
     color: #FF5E56;
     font-size: 2vw;
     font-family: 'Times New Roman', Times, serif;
-}
-
-img {
-    height: 5vw;
-    width: 5vw;
 }
 
 span {
