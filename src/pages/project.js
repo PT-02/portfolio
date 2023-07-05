@@ -1,6 +1,7 @@
 import React from "react";
 import "./project.css";
-import project1 from "./images/project.jpg";
+import pr1 from "./images/pr1.png";
+import pr2 from "./images/pr2.png";
 import laptop from './images/laptop.png'
 
 function ProjectPage() {
@@ -14,7 +15,7 @@ function ProjectPage() {
             <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src={project1} alt="Avatar" />
+              <img src={pr1} alt="Avatar" />
             </div>
             <div class="flip-card-back">  </div>
             <div className="flip-text">            
@@ -30,7 +31,7 @@ function ProjectPage() {
             <div class="flip-card">
           <div class="flip-card-inner">
             <div class="flip-card-front">
-              <img src={project1} alt="Avatar" />
+              <img src={pr2} alt="Avatar" />
             </div>
             <div class="flip-card-back">  </div>
             <div className="flip-text">            
