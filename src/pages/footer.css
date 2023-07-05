@@ -1,9 +1,116 @@
-.footer{
-    height:50vh;
-    background:#011D32;
+footer {
+    height: 40vh;
+    background-color: #011D32;
 }
-.footer h1{
+
+.footer-about {
+    size: 2.5vh;
+}
+
+.col {
+
+    height: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.footer-about img {
+
+    width: 15vw;
+    height: 22vh;
+    margin-left: 6vw;
+}
+
+.name {
+
+    margin-left: 2vw;
     color: white;
-    font-size: 7vw;
-    text-align: center;   
+    margin-top: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 5.5vw;
+    transition: 0.3s;
+}
+
+
+.pageLink ul {
+
+    margin-top: 8vw;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.pageLink li {
+
+    display: inline;
+    margin-left: 3vw;
+    font-size: 2vw;
+}
+
+.pageLink a {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+    font-weight: 1000;
+}
+
+.pageLink a:hover {
+    font-size: 2.5vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FF5E56;
+    text-decoration: none;
+}
+
+.footer-social h3 {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 2.5vw;
+    margin-top: 6vw;
+    margin-left: 2vw;
+}
+
+.footer-social span {
+    font-style: normal;
+    font-size: 2.2vw;
+}
+
+.footer-social--icons {
+    margin-top: 2vh;
+}
+
+.footer-social--icons div {
+    display: inline;
+    margin-left: 2.5vw;
+}
+
+.footer-social--icons div a {
+    font-size: 2.5vw;
+    transition: 0.3s;
+    color: white
+}
+
+.footer-social--icons div a:hover {
+    font-size: 3vw;
+    color: #FF5E56;
+}
+
+.footer-bottom--section {
+
+    text-align: center;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    height: 5vh;
+
+}
+
+.footer-bottom--section p {
+    color: #011D32;
+}
+
+.footer-bottom--section span {
+    color: #011D32;
+    font-size: 1.3vw;
 }

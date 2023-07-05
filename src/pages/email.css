@@ -1,81 +1,92 @@
-.email{
-    height:100vh;
-    background:white;
+.email {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
-.email h1{
-    color: #011D32;;
+
+.email h1 {
+    color: #011D32;
     font-size: 6vw;
-    text-align: center;   
+    text-align: center;
 }
-.email h4{
-    color: #011D32;;
+
+.email h4 {
+    color: #011D32;
     font-size: 2vw;
-    text-align: center;   
-}
-.container{
-    display: flex;
-    justify-content: center;
-}
-.container form{
-    border: 2px solid black;
-    width:50vw;
-    height:60vh;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    text-align: center;
 }
 
-.container form input{
-    width: 12vw;
-    height:8vh;
-    padding-left: 6.5vw; 
-    outline: none;
+#sayhello {
+    margin-left: 35vw;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height: 65vh;
+    width: 30vw;
+    border: 1px solid white;
+    background-image: linear-gradient(111.4deg, rgb(52, 52, 59) 10%, #01233e 80.2%);
+    ;
+    border-radius: 20px;
+}
+
+.yourname {
+    margin-top: 7vh;
+    margin-left: 3vw;
+    font-size: 1.5vw;
+}
+
+.youremail {
+    margin-left: 3vw;
+    font-size: 1.5vw;
+}
+
+.yourmessage {
+    margin-left: 3vw;
+    font-size: 1.5vw;
+}
+
+input {
+    margin: 1.5vh 3vw;
+    margin-top: 0px;
+    height: 2vw;
+    border-radius: 1vw;
     border: none;
-    font-size: 1vw;
-    margin-bottom:1vh;
-    background: none;
-    border-bottom: 2px solid black;
-     margin-left: 3vw; 
 }
 
+input::placeholder {
+    text-align: left;
+    color: gray;
 
-.container form input::placeholder{
+}
+
+textarea {
+    margin: 1.5vh 3vw;
+    height: 7vw;
+    border-radius: 1vw;
+    border: none;
+}
+
+textarea::placeholder {
+    text-align: center;
     color: gray;
 }
 
-.container form textarea::placeholder{
-    color: gray;
-}
-
-
-
-.container form textarea{
-    background: none;
+.submitbtn {
+    margin: 1vh;
+    margin-left: 10vw;
+    background-color: #011D32;
+    border-radius: 1vw;
+    transition: 0.8s;
+    height: 7vh;
+    width: 9vw;
+    color: white;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
     border: none;
-    border-bottom: 2px solid black;
-    color:black;
-    font-weight: 200;
-    font-size: 1vw;
-    padding: 0.5vw;
-    outline: none;
-    min-width: 45vw;   
-    min-height: 2vw;
-    
 }
 
-
-.container form #button{
-    border: none;
-    background:blue;
-    border-radius: 5px;
-    margin-top: 1vw;
-    font-weight: 600;
-    font-size: 1.7vw;
-    color:#fff;
-    width: 6vw;
-    transition: 0.3s;
-}
-
-.container form #button:hover{
-    opacity: 0.7;
+.submitbtn:hover {
+    background: white;
+    color: #011D32;
 }

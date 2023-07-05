@@ -1,42 +1,49 @@
-.about{
-    background:white;
+.about {
+    background-image: url(./images/background.jpg);
+    background-size: cover;
     height: 100vh;
+    background-repeat: no-repeat;
 }
-.container{
+
+.container {
     display: grid;
     height: 100vh;
     margin-left: 4vw;
-    column-gap:50px;   
+    column-gap: 50px;
     grid-template-columns: auto auto auto;
+
 
 }
 
-.left{   
+.left {
     margin-top: 3vw;
 }
 
-.right{    
-    margin-top: 20vw;   
+.right {
+    margin-top: 20vw;
 }
 
-h2{
+h2 {
     font-size: 3.5vw;
-    color:#011D32;
+    color: #011D32;
 }
-p{
-    color:#FF5E56;
-    font-size:2vw ;
-    font-family:'Times New Roman', Times, serif;
+
+p {
+    color: #FF5E56;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
 }
-img{
+
+img {
     height: 5vw;
-    width:5vw;
+    width: 5vw;
 }
-span{
-    color:#FF5E56;
-    font-size:2vw ;
-    font-family:'Times New Roman', Times, serif;
+
+span {
+    color: #FF5E56;
+    font-size: 2vw;
+    font-family: 'Times New Roman', Times, serif;
     font-style: italic;
-    font-weight:bolder;
+    font-weight: bolder;
 
 }
