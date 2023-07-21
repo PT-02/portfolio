@@ -1,12 +1,9 @@
 import React from "react";
 import "./landing_page.css";
-import AboutPage from "./about_page.js";
 import bg1 from "./images/bg.jpg";
 import sun from "./images/sun.png";
 import hill from "./images/hill.png";
-import ProjectPage from "./project";
 import Footer from "./footer";
-import Email from "./email";
 import { useEffect } from "react";
 
 const LandingPage = () => {
@@ -46,9 +43,7 @@ const LandingPage = () => {
         </div>
       </div>
 
-      <AboutPage />
-      <ProjectPage />
-      <Email />
+  
       <Footer />
     </>
   );

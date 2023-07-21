@@ -3,6 +3,7 @@ import "./project.css";
 import pr1 from "./images/pr1.png";
 import pr2 from "./images/pr2.png";
 import laptop from './images/laptop.png'
+import Footer from "./footer";
 
 function ProjectPage() {
   return (
@@ -46,6 +47,7 @@ function ProjectPage() {
         
       </div>
       </div>
+      <Footer />
     </>
   );
 }

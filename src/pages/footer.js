@@ -1,5 +1,6 @@
 import React from "react";
 import { FaInstagram, FaGithub, FaLinkedinIn } from "react-icons/fa";
+import { NavLink as Link } from 'react-router-dom';
 import "./footer.css";
 import developer from "./images/developer.png";
 
@@ -16,16 +17,24 @@ const Footer = () => {
           <div className="pageLink">
             <ul>
               <li>
-                <a href="">Home</a>
+              <Link to="/" activeClassName="active">
+        Home
+      </Link>
               </li>
               <li>
-                <a href="">About</a>
+              <Link to="/about_page"  activeClassName="active">
+          About
+        </Link>
               </li>
               <li>
-                <a href="">Project</a>
+              <Link to="/project"  activeClassName="active">
+          Project
+        </Link>
               </li>
               <li>
-                <a href="">Contact</a>
+              <Link to="/email"  activeClassName="active">
+          Contact
+        </Link>
               </li>
             </ul>
           </div>
@@ -35,17 +44,17 @@ const Footer = () => {
             </h3>
             <div className="footer-social--icons">
               <div>
-                <a href="" target="_blank">
+                <a href="https://www.instagram.com/__shutterbug02" target="_blank">
                   <FaInstagram className="icons" />
                 </a>
               </div>
               <div>
-                <a href="" target="_blank">
+                <a href="https://www.linkedin.com/in/prerna-tanwar-52318a19a/" target="_blank">
                   <FaLinkedinIn className="icons" />
                 </a>
               </div>
               <div>
-                <a href="" target="_blank">
+                <a href="https://github.com/PT-02" target="_blank">
                   <FaGithub className="icons" />
                 </a>
               </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import "./email.css";
+import Footer from "./footer";
 
 function Email() {
   return (
@@ -29,6 +30,7 @@ function Email() {
           </form>
         </div>
       </div>
+      <Footer />
     </>
   );
 }
