@@ -1,5 +1,6 @@
 import React from "react";
 import "./project.css";
+import { FaGithub} from "react-icons/fa";
 import pr1 from "./images/pr1.png";
 import pr2 from "./images/pr2.png";
 import laptop from './images/laptop.png'
@@ -20,8 +21,9 @@ function ProjectPage() {
             </div>
             <div class="flip-card-back">  </div>
             <div className="flip-text">            
-              <p>See full Project</p>
-              <a href="/">github</a>
+              <a href="https://github.com/No-ShitSherlock/fridayfoodpoint-master.git" target="_blank">
+                  <FaGithub className="icons" />
+                </a>
             
             </div>
           </div>
@@ -36,8 +38,9 @@ function ProjectPage() {
             </div>
             <div class="flip-card-back">  </div>
             <div className="flip-text">            
-              <p>See full Project</p>
-              <a href="/">github</a>
+            <a href="https://github.com/PT-02/Event-Website.git" target="_blank">
+                  <FaGithub className="icons" />
+                </a>
             
             </div>
           </div>

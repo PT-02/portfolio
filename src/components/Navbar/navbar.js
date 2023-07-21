@@ -1,8 +1,7 @@
 // Navbar.js
 import React from 'react';
-import { FaBars } from 'react-icons/fa';
 import { NavLink as Link } from 'react-router-dom';
-import './navbar.css'; // Import the converted CSS file
+import './navbar.css';
 
 const Navbar = () => {
   return (
