@@ -17,24 +17,24 @@ const Footer = () => {
           <div className="pageLink">
             <ul>
               <li>
-              <Link to="/" activeClassName="active">
-        Home
-      </Link>
+                <Link to="/" activeClassName="active">
+                  Home
+                </Link>
               </li>
               <li>
-              <Link to="/about_page"  activeClassName="active">
-          About
-        </Link>
+                <Link to="/about_page" activeClassName="active">
+                  About
+                </Link>
               </li>
               <li>
-              <Link to="/project"  activeClassName="active">
-          Project
-        </Link>
+                <Link to="/project" activeClassName="active">
+                  Project
+                </Link>
               </li>
               <li>
-              <Link to="/email"  activeClassName="active">
-          Contact
-        </Link>
+                <Link to="/email" activeClassName="active">
+                  Contact
+                </Link>
               </li>
             </ul>
           </div>
@@ -44,17 +44,17 @@ const Footer = () => {
             </h3>
             <div className="footer-social--icons">
               <div>
-                <a href="https://www.instagram.com/__shutterbug02" target="_blank">
+                <a href="https://www.instagram.com/__shutterbug02" target="_blank" rel="noreferrer">
                   <FaInstagram className="icons" />
                 </a>
               </div>
               <div>
-                <a href="https://www.linkedin.com/in/prerna-tanwar-52318a19a/" target="_blank">
+                <a href="https://www.linkedin.com/in/prerna-tanwar-52318a19a/" target="_blank" rel="noreferrer">
                   <FaLinkedinIn className="icons" />
                 </a>
               </div>
               <div>
-                <a href="https://github.com/PT-02" target="_blank">
+                <a href="https://github.com/PT-02" target="_blank" rel="noreferrer">
                   <FaGithub className="icons" />
                 </a>
               </div>
